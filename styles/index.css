@@ -38,6 +38,16 @@ html, body {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
+.mission {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('assets/ourMissionbg.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
 
 .frontpage h1 {
     padding: 0;
