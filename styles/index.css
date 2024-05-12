@@ -2,6 +2,7 @@ html, body {
     padding: 0;
     margin: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -40,21 +41,18 @@ html, body {
 }
 
 .frontpage h1 {
-    padding: 0;
-    margin: 0;
     font-size: 60px;
-    color: white;
-    text-shadow: 1px 1px 10px black;
 }
 
 .frontpage h2 {
-    padding: 0;
-    margin: 0;
-    color: white;
-    text-shadow: 1px 1px 10px black;
+    font-size: 40px;
 }
 
-.frontpage a {
+.frontpage p {
+    font-size: 20px;
+}
+
+.frontpage h1, h2, p, a {
     padding: 0;
     margin: 0;
     color: white;
@@ -66,4 +64,12 @@ html, body {
     margin: 0;
     padding-top: 100px;
     margin-left: 100px;
+}
+
+.aboutus-items-container {
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+    margin-left: 100px;
+    width: 45%
 }
