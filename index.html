@@ -6,6 +6,8 @@
     <title>Sites For All</title>
     <link rel="stylesheet" href="styles/index.css">
     <script src="scripts/index.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -16,10 +18,29 @@
     </div>
     <div class="frontpage">
         <div class="frontpage-items-container">
-            <h1>Sites For All</h1>
-            <h2>We make websites for other non-profits.</h2>
-            <a href="#about-us">Learn More</a>
+            <h1 data-aos="fade" data-aos-duration="1000">Sites For All</h1>
+            <h2 data-aos="fade" data-aos-duration="1500">We make websites for other non-profits.</h2>
+            <a href="#about-us"><p data-aos="fade" data-aos-duration="2000">Learn More</p></a>
         </div>
     </div>
+    <div class="frontpage" id="about-us">
+        <div class="aboutus-items-container">
+            <h2 data-aos="fade" data-aos-duration="1000">About Us</h2>
+            <p data-aos="fade" data-aos-duration="1500">
+                Add text here on stuff about us etc etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores commodi iste ipsum, nisi quos, doloremque nemo facere asperiores explicabo hic rerum eos expedita corporis. Aliquid eaque quibusdam repellendus quasi?
+            </p data-aos="fade" data-aos-duration="1500">
+            <br>
+            <p data-aos="fade" data-aos-duration="1500">
+                Add text here on stuff about us etc etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores commodi iste ipsum, nisi quos, doloremque nemo facere asperiores explicabo hic rerum eos expedita corporis. Aliquid eaque quibusdam repellendus quasi?
+            </p>
+            <br>
+            <p data-aos="fade" data-aos-duration="1500">
+                Add text here on stuff about us etc etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores commodi iste ipsum, nisi quos, doloremque nemo facere asperiores explicabo hic rerum eos expedita corporis. Aliquid eaque quibusdam repellendus quasi?
+            </p>
+        </div>
+    </div>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
