@@ -91,3 +91,28 @@ html, body {
     background-color: #454A45;
     background-image: none;
 }
+
+@media (max-width: 1000px) {
+    .frontpage-items-container {
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .frontpage-items-container h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+    .frontpage-items-container h2 {
+        margin-top: 10px;
+        font-size: 30px;
+        text-align: center;
+        width: 75%;
+    }
+    .frontpage-items-container p {
+        margin-top: 10px;
+    }
+}
