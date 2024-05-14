@@ -84,14 +84,6 @@ html, body {
     width: 45%
 }
 
-.ourmission-items-container {
-    padding: 0;
-    margin: 0;
-    padding-top: 100px;
-    margin-left: 100px;
-    width: 45%
-}
-
 .b2 {
     background-color: #5D5D5B;
     background-image: none;
@@ -127,5 +119,13 @@ html, body {
     }
     .frontpage-items-container p {
         margin-top: 10px;
+    }
+    .aboutus-items-container {
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+        text-align: center;
+        width: 100%;
+
     }
 }
