@@ -28,6 +28,8 @@ html, body {
 
 #myBtn a {
     text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 15px black;
 }
 
 .navbar {
