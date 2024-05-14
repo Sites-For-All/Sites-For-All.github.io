@@ -83,12 +83,25 @@ html, body {
     margin-left: 100px;
     width: 45%
 }
+
+.ourmission-items-container {
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+    margin-left: 100px;
+    width: 45%
+}
+
 .b2 {
     background-color: #5D5D5B;
     background-image: none;
 }
 .b3 {
     background-color: #454A45;
+    background-image: none;
+}
+.b4 {
+    background-color: #323632;
     background-image: none;
 }
 
