@@ -155,4 +155,8 @@ html, body {
         width: 100%;
 
     }
-}
+
+    .aboutus-items-container p{
+        padding:20px
+    }
+}    
